@@ -22,8 +22,8 @@ Fase 1 se libera en tres entregas: **R1** el 1-dic (flujo del Enlace), **R2** el
 ```
 data/catalogo/     Catálogo versionado de los 43 formatos y sus naturalezas
 data/lenguaje/     Términos prohibidos por el principio rector
-docs/              Arquitectura, modelo de datos y registro de decisiones técnicas
-tools/             Verificaciones que se corren antes de cada despliegue
+docs/              Arquitectura, modelo de datos, plantillas Excel, decisiones y referencias
+tools/             Verificaciones, generador de plantillas e inventario del servidor
 ```
 
 El código de la aplicación se agrega cuando se fije el stack con el inventario del servidor (T-01, vie 13-nov-2026). Ver `docs/arquitectura.md`.
@@ -33,6 +33,7 @@ El código de la aplicación se agrega cuando se fije el stack con el inventario
 ```
 python3 tools/verificar_catalogo.py   # 43 formatos, conteos por obligados, tipo y naturaleza
 python3 tools/verificar_lenguaje.py   # textos visibles sin «validar», «aprobar», etc.
+python3 tools/generar_plantillas.py <carpeta>   # plantillas Excel de muestra y docs/plantillas-excel.md
 ```
 
 ## Equipo

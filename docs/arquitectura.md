@@ -16,6 +16,8 @@ Lo que no resuelva se agrega como librería. No se cambia de stack a tres semana
 
 ## Inventario T-01 (lo llena Omar González)
 
+Para levantarlo, correr en el servidor `tools/inventario-servidor.sh` (Linux) o `tools/inventario-servidor.ps1` (Windows). Solo leen y enmascaran contraseñas; revisar la salida antes de compartirla.
+
 | Concepto | Dato |
 | --- | --- |
 | Sistema previo alojado | |
