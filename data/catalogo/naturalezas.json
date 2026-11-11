@@ -1,0 +1,10 @@
+{
+  "estado": "Propuesta para la sesión L-02 (CONTEXTO §6.2, 6-nov-2026). No sustituye la clasificación «Todos/Condicional» del Manual 6.2.",
+  "naturalezas": [
+    {"codigo": "N1", "nombre": "Individual", "regla": "Cada sujeto obligado reporta lo propio; sin total del ente."},
+    {"codigo": "N2", "nombre": "Común del ente", "regla": "Un documento; se carga una vez y aparece por referencia en el anexo de cada sujeto obligado."},
+    {"codigo": "N3", "nombre": "Concentrado y desglose", "regla": "El área administrativa, de personal o de planeación presenta el total; cada unidad su parte; deben cuadrar."},
+    {"codigo": "N4", "nombre": "Por atribución", "regla": "Solo quien tiene la competencia por reglamento interior; puede ser concurrente con distinta calidad."},
+    {"codigo": "N5", "nombre": "Integración ascendente", "regla": "Cada quien lo suyo; el mismo asunto puede subir por dos ramas y el sistema lo señala por identificador común."}
+  ]
+}

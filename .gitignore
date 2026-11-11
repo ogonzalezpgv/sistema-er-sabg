@@ -1,0 +1,27 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.ejemplo
+*.pem
+*.key
+
+# Datos reales: nunca en el repositorio
+datos-reales/
+respaldos/
+*.sql.gz
+*.dump
+
+# Archivos generados
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

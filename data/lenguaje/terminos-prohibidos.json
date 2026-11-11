@@ -1,0 +1,22 @@
+{
+  "fuente": "03_Documento-Requerimientos/lineamientos-ux-y-lenguaje.md §1 (2-nov-2026); principio rector de la SABG (Ley E-R arts. 16 y 23)",
+  "regla": "La SABG coordina; no valida, certifica ni avala. Estos términos no aparecen en textos de interfaz, correos, acuses, reportes ni PDFs.",
+  "terminos": [
+    {"raiz": "valid", "usar_en_su_lugar": "verificación de forma / verificación formal"},
+    {"raiz": "aprob", "usar_en_su_lugar": "recibido / verificación formal concluida"},
+    {"raiz": "revisor", "usar_en_su_lugar": "registro de recepción"},
+    {"raiz": "certific", "usar_en_su_lugar": "verificación formal"},
+    {"raiz": "aval", "usar_en_su_lugar": "remitida por [institución] bajo su responsabilidad"},
+    {"raiz": "rechaz", "usar_en_su_lugar": "con observaciones de forma"}
+  ],
+  "frases_permitidas": [
+    "avalúo",
+    "avaluo",
+    "presupuesto aprobado",
+    "aprobado, modificado y ejercido"
+  ],
+  "excepciones": [
+    "Nombres de variables, funciones y archivos de código (solo se revisan textos visibles)",
+    "Citas textuales de la norma, marcadas como tales"
+  ]
+}
